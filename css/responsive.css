@@ -12,6 +12,13 @@
     .banner-img{ 
         margin-right: 300px;
      }
+     .section-title{
+        text-align: center;
+     }
+     .section-images{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     }
     
 }
 
@@ -46,4 +53,8 @@
     .banner-img{ 
         margin-right: 250px;
      } 
+     .section-images{
+        flex-direction: column;
+     }
+    
 }
