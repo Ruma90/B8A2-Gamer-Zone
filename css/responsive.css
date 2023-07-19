@@ -35,6 +35,13 @@
         margin-top: 0;
         padding: 10px
     }
+    .center{
+        padding-left: 300px;
+    }
+    .icons-container{
+        padding-left: 290px;
+    }
+
 }
 
 
@@ -99,6 +106,15 @@
         display: none;
     }
     .logo-container{
-        display: block;
+        padding-left: 120px;
+    }
+    .icons-container{
+        padding-left: 120px;
+    }
+    .footer{
+        max-width: 100%;
+    }
+    body{
+        max-width: 100%;
     }
 }
