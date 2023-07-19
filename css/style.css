@@ -150,6 +150,7 @@ button {
     grid-template-columns: repeat(5, 1fr);
     padding: 130px 200px;
     gap: 40px;
+    margin-top: 30px;
 }
 
 .img:hover {
@@ -161,6 +162,28 @@ button {
     border-radius: 40px;
 }
 
+.feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 70px;
+
+}
+
+.feature-content {
+    width: 200px;
+    padding-right: 60px;
+}
+
+.feature-title {
+    font-size: 28px;
+    font-weight: 700;
+}
+.relative{
+    position: relative;
+    right: 200px;
+    top: 60px;
+}
 
 /* .banner-container
     margin-top: 50px;

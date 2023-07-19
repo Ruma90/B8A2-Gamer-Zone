@@ -20,7 +20,21 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
      }
-    
+     .feature{
+        flex-direction: column-reverse;
+     }
+     .relative{
+        /* position: relative; */
+        left: 395px;
+        top: -140px;
+     }
+    .img-title{
+       text-align: center;;
+    }
+    .img-container{
+        margin-top: 0;
+        padding: 10px
+    }
 }
 
 
@@ -66,7 +80,24 @@
         width: 20px;
         height: 20px;
         padding: 5px;
-    } */
+    } 
+    .feature {
+        flex-direction: column-reverse;
+    }
+    .relative{
+        margin-left: 150px;
+        width: 200px;
+        padding: 10px;
+        position: relative;
+        right: 10px;
+        /* bottom: 60px; */
+        /* left: 395px; */
+        top: -140px;
+        
+    }
+    .hide{
+        display: none;
+    }
     /* .img-container{
         flex-direction: column;
     } */
