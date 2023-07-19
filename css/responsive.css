@@ -98,7 +98,7 @@
     .hide{
         display: none;
     }
-    /* .img-container{
-        flex-direction: column;
-    } */
+    .logo-container{
+        display: block;
+    }
 }
