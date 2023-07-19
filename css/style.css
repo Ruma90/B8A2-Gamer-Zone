@@ -49,53 +49,63 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 30px 10px 20px;
 }
-.fa-brands{
-    padding: 10px;
-}
 
-/* p{
-    font-size: 45px;
-    font-weight: 700;
-} */
 
-/* .logo-container {
+.banner {
     display: flex;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav-items-container a {
-    text-decoration: none;
-}
-
-.logo-container {
-
-    display: flex;
-    width: 50%;
-    border: 1px solid blue;
     align-items: center;
-}
-
-.logo-container img {
-    width: 60px;
-    height: 30px;
-    margin-right: 5px;
-
-} 
-
-.logo-container p {
-
-}
-.nav-items-container {
-
-    width: 50%;
-    display: flex;
     justify-content: space-around;
-    align-items: center;
-    margin-right: 10px;
-    margin: 0 240px; 
+    padding: 50px 100px 200px;
+    background-image: url(../images/Group\ 14.png);
+    margin-top: 20px;
+}
+.banner-img{
+    width: 100%;
+    margin-left: 300px;
+}
 
+.play-like {
+    color: #0B0223;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.goal {
+    font-size: 60px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0%;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description {
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+button{
+    margin-top: 10px;
+    border: none;
+}
+.sign {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.go {
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
+/* .banner-container{
+    margin-top: 50px;
 } */
