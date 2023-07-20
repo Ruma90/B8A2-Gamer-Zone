@@ -3,7 +3,9 @@
 * {
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
+
 
 nav {
     background-color: white;
